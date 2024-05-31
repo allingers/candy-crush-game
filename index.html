@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Candy Crush</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Concert+One&family=Noto+Sans+Mono:wght@100..900&family=Righteous&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game-wrapper">
+      <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+          <p class="cc-text modalTitle" id="modalTitle">No Moves Left!</p>
+          <p class="cc-text modalScore">Score: <span id="finalScore"></span></p>
+        </div>
+      </div>
+
+      <div id="score-and-moves-board">
+        <div id="score-board">
+          <p>Points: <span id="score"></span></p>
+        </div>
+        <div id="moves-board">
+          <p>Moves: <span id="moves"></span></p>
+        </div>
+      </div>
+      <div id="game-board"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
