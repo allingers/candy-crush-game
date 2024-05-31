@@ -1,5 +1,9 @@
 # Candy Crush Game
 
+![Skärmbild 2024-05-31 092027](https://github.com/allingers/candy-crush-game/assets/111489987/994425c2-a024-4ad6-9f04-c1a027dda361)
+
+
+
 ## Table of Contents
 - [Game Overview](#game-overview)
 - [Features](#features)
