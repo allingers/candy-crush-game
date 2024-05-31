@@ -5,6 +5,7 @@
 - [Features](#features)
 - [Setup Instructions](#setup-instructions)
   - [Open the Game](#open-the-game)
+- [License](#license)
 
 ### Game Overview
 Matching game where the player can match three or more candies in a row to get points.Matching four candies creates special candies which can then be matched to activate speical effect where all candies in the row or column are wiped out.Matching five candies creates a color bomb that can be combined with a piece of candy of any color to wipe out all candies of that color.
@@ -35,5 +36,8 @@ You can either open the index.html file directly in your web browser or use the 
 1. Install the [Live Server extension.](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 2. Open the project folder in VS Code.
 3. Right-click on index.html and select "Open with Live Server".
+
+## License
+[MIT License](LICENSE)
 
 
